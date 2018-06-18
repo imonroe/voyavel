@@ -1,0 +1,39 @@
+html {
+    position: relative;
+    min-height: 100%;
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin-top:0px;
+    /* Margin bottom by footer height */    
+    margin-bottom: 120px;
+    font-family: sans-serif;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 30px;
+    /* Set the fixed height of the footer here */   
+    height: 120px;
+    /* line-height: 60px; Vertically center the text there */
+    background-color: #ccc;
+}
+
+/* Page styles */
+
+#page_headline {
+    margin-top: 2em;
+}
+
+#page_body {
+    margin-top: 2em;
+}
+
+.caption{
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 12px;
+}
